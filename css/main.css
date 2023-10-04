@@ -643,6 +643,20 @@ header .seperator-skew svg .fill-white {
   height: auto; 
 }
 
+.video-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; 
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .projects .project-row .project-right {
   width: 50%;
   display: flex;
