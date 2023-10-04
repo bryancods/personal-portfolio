@@ -628,10 +628,21 @@ header .seperator-skew svg .fill-white {
   width: 50%;
   margin-right: 2rem;
 }
+
 .projects .project-row .project-left img {
   width: 100%;
   border: 1px solid lightgray;
 }
+.projects .project-row .project-center {
+  width: 100%;
+  margin: 0 auto; 
+}
+
+.projects .project-row .project-center img {
+  max-width: 100%; 
+  height: auto; 
+}
+
 .projects .project-row .project-right {
   width: 50%;
   display: flex;
