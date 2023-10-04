@@ -64,7 +64,7 @@ a {
 }
 
 .text-dark-grey {
-  color: #2e3031;
+  color: #000000;
 }
 
 .bg-blue {
@@ -72,7 +72,7 @@ a {
 }
 
 .bg-dark-grey {
-  background-color: #2e3031;
+  background-color: #000000;
 }
 
 .bg-white {
@@ -344,7 +344,7 @@ a {
 }
 
 header {
-  background: #181a1b;
+  background: #000000;
   background-size: cover;
   min-height: 80vh;
   position: relative;
@@ -953,7 +953,7 @@ header .seperator-skew svg .fill-white {
 }
 
 .footer {
-  background: #181a1b;
+  background: #000000;
   padding: 1.5rem 0;
   color: white;
 }
