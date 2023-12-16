@@ -1045,9 +1045,9 @@ header .seperator-skew svg .fill-white {
 }
 
 @keyframes swing {
-  0% { transform: rotate(-10deg); }
-  50% { transform: rotate(10deg); }
-  100% { transform: rotate(-10deg); }
+  0% { transform: rotate(-5deg); }
+  50% { transform: rotate(5deg); }
+  100% { transform: rotate(-5deg); }
 }
 
 @keyframes colorChange {
@@ -1074,3 +1074,4 @@ header .seperator-skew svg .fill-white {
 #downloadButton:hover {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.7);
 }
+
