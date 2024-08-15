@@ -1076,3 +1076,108 @@ header .seperator-skew svg .fill-white {
 }
 
 
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  padding: 0;
+  line-height: 1.5;
+  background: #000000;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.text-center {
+  text-align: center;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.mx-1 {
+  margin: 0 0.5rem;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 1.5rem 1rem; 
+  margin: auto;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+h1, h2, h3, h4, p {
+  font-size: clamp(0.8rem, 1vw + 1rem, 2rem); 
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px; 
+  font-size: clamp(0.75rem, 1vw + 0.5rem, 1.25rem);
+}
+
+@media (max-width: 768px) {
+  .btn {
+    display: block; 
+    width: 100%;
+    box-sizing: border-box; 
+  }
+}
+
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input, select, textarea, button {
+  width: 100%;
+  font-size: clamp(0.8rem, 1.5vw, 1.2rem); 
+}
+
+section {
+  padding: 2rem 1rem; 
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 1rem; 
+  }
+  
+  .btn {
+    padding: 1rem 0.5rem;
+  }
+
+  header .hero h1 {
+    font-size: clamp(1.5rem, 8vw, 3rem);
+  }
+}
