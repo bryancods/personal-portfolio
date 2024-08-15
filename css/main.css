@@ -441,6 +441,7 @@ header .hero {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  margin-top: 10%;
 }
 header .hero h1,
 header .hero p {
@@ -613,7 +614,6 @@ header .seperator-skew svg .fill-white {
 .projects {
   background: white;
   padding: 3rem 0;
-  margin-top: 10%;
 }
 .projects h2,
 .projects h2 span {
